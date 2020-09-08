@@ -1,0 +1,29 @@
+.under-construction {
+    background-color: #FFC027;
+}
+
+.no-page {
+    background-image: url("../imgs/404.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container {
+    height: 800px;
+    position: relative;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.under-construction-img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: scale-down;
+}
